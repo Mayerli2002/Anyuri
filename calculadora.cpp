@@ -1,29 +1,29 @@
 //Programa que presenta las operaciones básicas
-//Modificado po: Mayerli  Anahi  Arias Tenorio 
-//Fecha: 24-09-2022
+//Creado por stalin franci
+// modificado Mayerli Aria Tenorio
+//Fecha:29 -09-2022
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float M,A,T,P,D,R;
+	float max,may,mas,mam,mad,mar;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de M=:";
-	cin>>M;
-	cout<<"Ingrese en valor de A=:";
+	cout<<"Ingrese en valor de max=:";
+	cin>>max;
+	cout<<"Ingrese en valor de may=:";
 	//Operaciones 
-	cin>>A;
-	T=M+A;
-	P=M*A;
-	D=M/A;
-	R=M-A;
+	cin>>may;
+	mas=max+may;
+	mam=max*may;
+	mad=max/may;
+	mar=max-may;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<M<<" + "<<A<<" = "<<T<<endl;
-	cout<<"Las multiplicacion de "<<M<<" * "<<A<<" = "<<P<<endl;
-	cout<<"Las division de "<<M<<" / "<<A<<" = "<<D<<endl;
-	cout<<"Las resta de "<<M<<" - "<<A<<" = "<<R<<endl;
-	return 0 ; 
-
+	cout<<"Las suma de "<<max<<" + "<<may<<" = "<<mas<<endl;
+	cout<<"Las multiplicacion de "<<max<<" * "<<may<<" = "<<mam<<endl;
+	cout<<"Las division de "<<max<<" / "<<may<<" = "<<mad<<endl;
+	cout<<"Las resta de "<<max<<" - "<<may<<" = "<<mar<<endl;
+	return 0 ;
 
 }

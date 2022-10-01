@@ -1,25 +1,24 @@
-//Creado por Mayerli Anahi Arias Tenorio 
+//Creado por stalin franci
+// modificado Mayerli Aria Tenorio
+//Fecha:29 -09-2022
 #include<iostream>
 using namespace std;
 int main()
 {
-   float M,A;
-   cout<<"Ingrese M A:"; cin>>M>>A;
-   if(M>A)
-   {
-     cout<<M<<" es mayor M "<<A<<endl;
+	int mai=0,mal;
+	float max,mas=0;
+	cout<<"ingrese el limite l="; cin>>mal;
+	do{
+		
+	cout<<"ingrese el numero x="; cin>>max;
+	mai=mai+1;
+	mas=mas+max;
 
 
-     }else{
 
-     cout<<A<<" es mayor M "<<M<<endl;
-
-
-     }
-    
-     return 0; 
-
-
+	}while(mai<mal);
+	cout<<"Se ingresaron "<<mal<<" numeros "<< "que sumaron "<<mas<<endl;
+	return 0;
 
 
 
